@@ -302,11 +302,11 @@ body {
 @media (max-width: 767px) {
     .container {
         width: 100vw;
-        max-width: none;
+        padding: 0 20px 0 20px;
     }
 
     .categories {
-        padding: 100px;
+        padding-top: 100px;
     }
 
     .categories__list {
