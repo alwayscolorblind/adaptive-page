@@ -13,5 +13,3 @@ burgerMenu.addEventListener('click', () => {
 
     isMenuActive = !isMenuActive;
 });
-
-const btn = document.querySelector('.header__burger');
