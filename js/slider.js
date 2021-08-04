@@ -52,7 +52,8 @@ sliders.forEach(slider => {
     }
 
     function changeSlideByIndex(index) {
-        slider.querySelector('.slider__wrapper').style.transform = `translateX(-${index * 100}%)`;
+        currentItemIndex = index;
+        slider.querySelector('.slider__wrapper').style.transform = `translateX(-${currentItemIndex * 100}%)`;
         setActivePaginationBullet(index);
     }
 });
